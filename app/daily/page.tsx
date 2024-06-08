@@ -1,16 +1,16 @@
 "use client";
 import React from "react";
 
-import { useSearchParams } from "next/navigation";
+// import { useSearchParams } from "next/navigation";
 import { Line } from "react-chartjs-2";
 import { data } from "@/datao";
 import { CategoryScale } from "chart.js";
 import Chart from "chart.js/auto";
 
 const DailyActivityTrends: React.FC = () => {
-  const searchParams = useSearchParams();
-  const dev = searchParams.get("dev");
-  console.log(dev);
+  // const searchParams = useSearchParams();
+  // const dev = searchParams.get("dev");
+  // console.log(dev);
   const rows = data.AuthorWorklog.rows;
   console.log(rows);
   const allDates = rows.flatMap((row) =>
