@@ -169,19 +169,9 @@ export default function Home() {
   // console.log(data);
   return (
     <>
-      <ul>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/graph1">graph 1</Link>
-        </li>
-        <li>
-          <Link href="/graph2">graph 2</Link>
-        </li>
-      </ul>
+      
 
-      <p className="text-xl">Chart JS and react</p>
+      <p className="text-xl">Comparison of All the three developers</p>
       <div className="bg-white w-1/2">
         <Radar data={data} options={options}></Radar>
       </div>
